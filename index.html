@@ -5,22 +5,26 @@
     
 <meta charset="UTF-8">
     
-<title>Firebase Chat</title>
+<title>Chatster</title>
     
 <link rel="icon" href="icon.png">
 <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	
+</style>
     
 <script src="https://cdn.firebase.com/js/client/2.4.0/firebase.js"></script>
     
 </head>
 
 <body>
+    <div class="w3-container">
+		<input id="username" type="text" placeholder="Name"><br/>
+		<input id="text" type="text" placeholder="Your Message"><br/>
+		<button id="post">Post</button><br/>
+	</div>
     
-	<input id="username" type="text" placeholder="Name"><br/>
-	<input id="text" type="text" placeholder="Your Message"><br/>
-	<button id="post">Post</button><br/>
-    
-	<div id="results"></div>
+	<div id="results" class="w3-container"></div>
     
     <script src="scr.js"></script>
 
